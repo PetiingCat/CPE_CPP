@@ -3,14 +3,23 @@ cd /d 資料夾路徑 ...開啟某資料夾
 dir ...列出檔案
 
 <Git>
-先在本機建repository再至github建repository
+*先在本機建repository再至github建repository
+此方式不是用push上傳資料，而是用git remote add origin
+git remote
+git remote add origin "clone網址"
+git remote -v #認可授權
+git branch #查看目前在哪個分支
+git push origin master
+(*)git push -f origin master #若github版本較新，需先拉再推，但這招可以強制上傳
+---
+*先在Github建repository再clone至本機
+git clone "clone網址" #將github資料夾下載下來
+---
 git init
----
-先在Github建repository再clone至本機
-git clone 網址 #將github資料夾下載下來
----
 git status #查看資料夾狀態(請先cd /d開啟至對應資料夾)
 git add 檔案名稱(含檔名) #確認此檔案新增至git file
 git add --all #一次加入所有暫存檔案
-git commit -m "敘述" #...暫存
-git push #...上傳至雲端github
+git commit -m ""敘述"" #...暫存
+*git push #...上傳至雲端github
+---
+
