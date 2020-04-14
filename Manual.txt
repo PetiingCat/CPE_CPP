@@ -17,6 +17,8 @@ git clone "clone網址" #將github資料夾下載下來
 ---
 git init
 git status #查看資料夾狀態(請先cd /d開啟至對應資料夾)
+---
+---
 git add 檔案名稱(含檔名) #確認此檔案新增至git file
 git add --all #一次加入所有暫存檔案
 git commit -m ""敘述"" #...暫存
