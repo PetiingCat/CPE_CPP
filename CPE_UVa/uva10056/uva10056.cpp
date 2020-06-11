@@ -24,7 +24,7 @@ int main()
         }
         else
         {
-            ans = (pow(q, (double)I - 1) * p) / (1 - pow(q, (double)N)); // 用貝氏定理計算 the probability of the I-th player to win
+            ans = (pow(q, (double)I - 1) * p) / (1 - pow(q, (double)N)); // 用等比級數計算，因為0<r<1，所以 S=a/(1-r) the probability of the I-th player to win
             cout << fixed << setprecision(4) << ans << endl;
         }
     }
