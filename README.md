@@ -5,5 +5,5 @@
 - __CPE_CPP__ *CPE, Collegiate Programming Examination  https://cpe.cse.nsysu.edu.tw/cpe/ *  
 - __pjhs2020__ *APCS, Advanced Placement Computer Science  https://apcs.csie.ntnu.edu.tw/ *  
 - __MSC__ *Microsoft: Coding Test of Research Development Intern*  
-- *[LeetCode](https://leetcode.com/Kuihao/)* Use C and Python language to solve problem twice. 
+- **[LeetCode](https://leetcode.com/Kuihao/)** Use **C** and **Python** language to __solve problem twice__. 
 ---
